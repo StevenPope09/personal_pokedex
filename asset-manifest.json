@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/personal_pokedex/static/css/main.e42c3ec2.chunk.css",
+    "main.js": "/personal_pokedex/static/js/main.b3040e01.chunk.js",
+    "main.js.map": "/personal_pokedex/static/js/main.b3040e01.chunk.js.map",
+    "runtime~main.js": "/personal_pokedex/static/js/runtime~main.09ebdb87.js",
+    "runtime~main.js.map": "/personal_pokedex/static/js/runtime~main.09ebdb87.js.map",
+    "static/css/2.266e55a5.chunk.css": "/personal_pokedex/static/css/2.266e55a5.chunk.css",
+    "static/js/2.dc211160.chunk.js": "/personal_pokedex/static/js/2.dc211160.chunk.js",
+    "static/js/2.dc211160.chunk.js.map": "/personal_pokedex/static/js/2.dc211160.chunk.js.map",
+    "index.html": "/personal_pokedex/index.html",
+    "precache-manifest.a7fb3282be4745c0d0e22e131f29bd79.js": "/personal_pokedex/precache-manifest.a7fb3282be4745c0d0e22e131f29bd79.js",
+    "service-worker.js": "/personal_pokedex/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/personal_pokedex/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.e42c3ec2.chunk.css.map": "/personal_pokedex/static/css/main.e42c3ec2.chunk.css.map",
+    "static/media/adPic.jpeg": "/personal_pokedex/static/media/adPic.c9f7539c.jpeg",
+    "static/media/customControllers.jpeg": "/personal_pokedex/static/media/customControllers.2e4c603b.jpeg",
+    "static/media/heroic.jpeg": "/personal_pokedex/static/media/heroic.5e0a1e29.jpeg",
+    "static/media/legendary.jpeg": "/personal_pokedex/static/media/legendary.920376e2.jpeg",
+    "static/media/logo.png": "/personal_pokedex/static/media/logo.c761ab7f.png",
+    "static/media/newsPoke.jpeg": "/personal_pokedex/static/media/newsPoke.e44f54d8.jpeg",
+    "static/media/pokeSwitch.jpeg": "/personal_pokedex/static/media/pokeSwitch.3768d1b9.jpeg",
+    "static/media/pokemonMasters.jpeg": "/personal_pokedex/static/media/pokemonMasters.48b539e9.jpeg",
+    "static/media/pokemonSwitch.jpeg": "/personal_pokedex/static/media/pokemonSwitch.c99ead19.jpeg"
+  }
+}
