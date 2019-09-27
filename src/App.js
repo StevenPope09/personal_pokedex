@@ -24,10 +24,10 @@ function App() {
 
       <div className="App">
         <Header pgTitle="Classic Pokedex" />
-        <Route path="/" component={Home} />
-        <Route path="/personal_pokedex/pokedex" component={Pokedex} />
-        <Route path="/collection" component={Collection} />
-        <Route path="/pokemon/:idOrName" component={PokemonDetail} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/pokedex" component={Pokedex} />
+        <Route exact path="/collection" component={Collection} />
+        <Route exact path="/pokemon/:idOrName" component={PokemonDetail} />
         <Footer />
       </div>
 
