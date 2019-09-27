@@ -26,8 +26,8 @@ const Header = props => {
                     {/* <Container style={styles.linkCon}> */}
                     <Nav className="mr-auto">
                         <div style={styles.linkDiv}>
-                            <Link style={styles.links} to="/pokedex">Pokedex</Link>
-                            <Link style={styles.links} to="/collection">Collections</Link>
+                            <Link style={styles.links} to="#pokedex">Pokedex</Link>
+                            <Link style={styles.links} to="#collection">Collections</Link>
                         </div>
                     </Nav>
                     
