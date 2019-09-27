@@ -8,7 +8,7 @@ import Pokedex from './components/pages/Pokedex';
 import Collection from './components/pages/Collection';
 import Home from './components/pages/Home';
 import PokemonDetail from './components/pages/PokemonDetail';
-import { HashRouter } from 'react-router-dom'
+//import { HashRouter } from 'react-router-dom'
 //import { Container } from 'react-bootstrap';
 
 function App() {
