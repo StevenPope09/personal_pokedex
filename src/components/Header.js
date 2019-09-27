@@ -13,11 +13,11 @@ const Header = props => {
 
         <Navbar style={styles.navBar} expand="lg">
             <div>
-                <Navbar.Brand href="/"> <Image style={styles.logo} src={Logo} fluid /></Navbar.Brand>
+                <Link to="/"><Image style={styles.logo} src={Logo} fluid /></Link> 
             </div>
 
             <div style={styles.title}>
-                <Navbar.Brand href="/" style={styles.title}>Personal Pokedex</Navbar.Brand>
+                <Navbar.Brand  style={styles.title}>Personal Pokedex</Navbar.Brand>
             </div>
 
             <div>
