@@ -24,10 +24,7 @@ function App() {
     <HashRouter>
       <div className="App">
         <Header pgTitle="Classic Pokedex" />
-        <div>
-          <Routes />
-        </div>
-
+        <Routes />
         <Footer />
       </div>
     </HashRouter>
