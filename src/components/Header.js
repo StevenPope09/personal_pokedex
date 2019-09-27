@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../images/logo.png'
-//import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 //import { makeStyles } from '@material-ui/core/styles';
 import { Navbar, Nav, Image } from 'react-bootstrap';
 
@@ -26,8 +26,8 @@ const Header = props => {
                     {/* <Container style={styles.linkCon}> */}
                     <Nav className="mr-auto">
                         <div style={styles.linkDiv}>
-                            <Nav.Link style={styles.links} href="/pokedex">Pokedex</Nav.Link>
-                            <Nav.Link style={styles.links} href="/collection">Collections</Nav.Link>
+                            <Link style={styles.links} to="/pokedex">Pokedex</Link>
+                            <Link style={styles.links} to="/collection">Collections</Link>
                         </div>
                     </Nav>
                     
@@ -72,8 +72,8 @@ let styles = {
 
     },
     linkDiv: {
-        //display: 'flex',
-        //flexDirection: 'column',
+        display: 'flex',
+        flexDirection: 'column',
         //float: 'right',
         //border: '1px solid red',
         //marginLeft: '10%'
