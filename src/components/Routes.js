@@ -11,9 +11,9 @@ function Routes(){
     return (
         <div>
         <Route  exact path="/" component={Home} />
-        <Route  exact path="#pokedex/"  component={Pokedex} />
-        <Route  exact path="#collection/" component={Collection} />
-        <Route  exact path="#pokemon/:idOrName/"  component={PokemonDetail} />
+        <Route  exact path="/pokedex/"  component={Pokedex} />
+        <Route  exact path="/collection/" component={Collection} />
+        <Route  exact path="/pokemon/:idOrName/"  component={PokemonDetail} />
         </div>
     )
 }
