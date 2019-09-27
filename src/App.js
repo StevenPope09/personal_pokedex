@@ -3,7 +3,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "./App.css";
-import { Route, HashRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, HashRouter } from "react-router-dom";
 import Pokedex from './components/pages/Pokedex';
 import Collection from './components/pages/Collection';
 import Home from './components/pages/Home';
@@ -20,18 +20,16 @@ function App() {
   }, []);
 
   return (
-    <HashRouter>
-
+    <Router>
       <div className="App">
         <Header pgTitle="Classic Pokedex" />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/pokedex" component={Pokedex} />
-        <Route exact path="/collection" component={Collection} />
-        <Route exact path="/pokemon/:idOrName" component={PokemonDetail} />
+        <Route  path="/"  exact component={Home} />
+        <Route  path="/pokedex/"  component={Pokedex} />
+        <Route  path="/collection/" component={Collection} />
+        <Route  path="/pokemon/:idOrName/"  component={PokemonDetail} />
         <Footer />
       </div>
-
-    </HashRouter>
+    </Router>
   );
 }
 
