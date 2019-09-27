@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Header pgTitle="Classic Pokedex" />
         <Route  path="/"  exact component={Home} />
@@ -29,7 +29,7 @@ function App() {
         <Route  path="/pokemon/:idOrName/"  component={PokemonDetail} />
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
