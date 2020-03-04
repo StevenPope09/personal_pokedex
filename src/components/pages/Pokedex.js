@@ -34,7 +34,7 @@ export default function Pokedex(props) {
         init();
         async function init() {
 
-            let res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=48");
+            let res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=24");
             let json = await res.json();
             let { next } = json;
             setNext(next);
