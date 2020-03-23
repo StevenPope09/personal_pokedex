@@ -4,6 +4,7 @@ import Card1 from '../cards/Card1'
 import Card2 from '../cards/Card2'
 import Caruosel1 from '../carousel/Carousel1'
 import Caruosel2 from '../carousel/Carousel2'
+import Button from '../button'
 
 
 export default class Home extends Component {
@@ -13,6 +14,7 @@ export default class Home extends Component {
                 <div style={styles.backDrop}>
                 <Container>
                     <div style={styles.topBar}><h1>Welcome to the Personal Pokedex!</h1></div>
+                    <Button type="button" name="test button"/>;
                 </Container>
                 <Container>
                     <h2 style={styles.topBar}>Latest News</h2>
